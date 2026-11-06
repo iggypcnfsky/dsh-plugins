@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Iggy Love DSH Plugins",
+    "pl": "Pluginy Iggy Love do DSH"
+  },
+  "description": {
+    "en": "Documents and spreadsheets that share one durable store with DeepSeek Harness agents.",
+    "pl": "Dokumenty i arkusze, które dzielą jeden trwały magazyn z agentami DeepSeek Harness."
+  },
+  "metadata": {
+    "categories": {
+      "docs": {
+        "title": {
+          "en": "Documents & tables",
+          "pl": "Dokumenty i tabele"
+        }
+      }
+    },
+    "labels": {
+      "first-party": {
+        "title": {
+          "en": "First-party",
+          "pl": "Autorskie"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@iggylove/dsh-docs",
+      "title": {
+        "en": "Docs",
+        "pl": "Dokumenty"
+      },
+      "description": {
+        "en": "Google Docs-style word processor with rich text, page setup, tables, images, print, export, and agent editing.",
+        "pl": "Edytor tekstu w stylu Google Docs: formatowanie, strony, tabele, obrazy, druk, eksport i edycja przez agenta."
+      },
+      "icon": "icons/dsh-docs.png",
+      "author": "Iggy Love",
+      "homepage": "https://github.com/iggypcnfsky/dsh-docs#readme",
+      "repository": {
+        "url": "https://github.com/iggypcnfsky/dsh-docs"
+      },
+      "metadata": {
+        "category": "docs",
+        "labels": ["first-party"],
+        "keywords": ["documents", "word processor", "rich text", "editor"]
+      },
+      "dist-tags": {
+        "latest": "1.0.0"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793966564,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-0 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@iggylove/dsh-sheets",
+      "title": {
+        "en": "Sheets",
+        "pl": "Arkusze"
+      },
+      "description": {
+        "en": "Agent-writable spreadsheet and table editor with formulas, formatting, CSV and Excel import, and export.",
+        "pl": "Edytor arkuszy i tabel z formułami, formatowaniem, importem CSV/Excel i eksportem, edytowalny przez agenta."
+      },
+      "icon": "icons/dsh-sheets.png",
+      "author": "Iggy Love",
+      "homepage": "https://github.com/iggypcnfsky/dsh-sheets#readme",
+      "repository": {
+        "url": "https://github.com/iggypcnfsky/dsh-sheets"
+      },
+      "metadata": {
+        "category": "docs",
+        "labels": ["first-party"],
+        "keywords": ["spreadsheet", "tables", "formulas", "xlsx", "csv"]
+      },
+      "dist-tags": {
+        "latest": "1.0.0"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793966850,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-0 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}
