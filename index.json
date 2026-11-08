@@ -34,8 +34,8 @@
         "pl": "Dokumenty"
       },
       "description": {
-        "en": "Google Docs-style word processor with rich text, page setup, tables, images, print, export, and agent editing.",
-        "pl": "Edytor tekstu w stylu Google Docs: formatowanie, strony, tabele, obrazy, druk, eksport i edycja przez agenta."
+        "en": "Google Docs-style word processor with folders, rich text, page setup, tables, images, print, export, and agent editing.",
+        "pl": "Edytor tekstu w stylu Google Docs z folderami, formatowaniem, stronami, tabelami, obrazami, drukiem, eksportem i edycją przez agenta."
       },
       "icon": "icons/dsh-docs.png",
       "author": "Iggy Love",
@@ -45,16 +45,20 @@
       },
       "metadata": {
         "category": "docs",
-        "labels": ["first-party"],
-        "keywords": ["documents", "word processor", "rich text", "editor"]
-      },
-      "dist-tags": {
-        "latest": "1.0.0"
+        "labels": [
+          "first-party"
+        ],
+        "keywords": [
+          "documents",
+          "word processor",
+          "rich text",
+          "editor"
+        ]
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1793966564,
+          "version": "1.1.0",
+          "publishTimestamp": null,
           "source": {
             "type": "npm"
           },
@@ -62,7 +66,13 @@
             "dsh": ">=0.2.2-0 <0.3.0-0"
           }
         }
-      ]
+      ],
+      "distTags": {
+        "latest": "1.1.0"
+      },
+      "dist-tags": {
+        "latest": "1.1.0"
+      }
     },
     {
       "name": "@iggylove/dsh-sheets",
@@ -82,8 +92,16 @@
       },
       "metadata": {
         "category": "docs",
-        "labels": ["first-party"],
-        "keywords": ["spreadsheet", "tables", "formulas", "xlsx", "csv"]
+        "labels": [
+          "first-party"
+        ],
+        "keywords": [
+          "spreadsheet",
+          "tables",
+          "formulas",
+          "xlsx",
+          "csv"
+        ]
       },
       "dist-tags": {
         "latest": "1.0.0"
